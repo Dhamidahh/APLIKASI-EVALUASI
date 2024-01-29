@@ -24,13 +24,7 @@ if Nama_Lengkap:
 if NIM:
     st.session_state.age = NIM
 
-SEMESTER_1 = joblib.load('MODEL_SEMESTER1_SVM.pkl')
-SEMESTER_2 = joblib.load('MODEL_SEMESTER2_MLP.pkl')
-SEMESTER_3 = joblib.load('MODEL_SEMESTER3_KNN.pkl')
-SEMESTER_4 = joblib.load('MODEL_SEMESTER4_RF.pkl')
-SEMESTER_5 = joblib.load('MODEL_SEMESTER5_RF.pkl')
-SEMESTER_6 = joblib.load('MODEL_SEMESTER6_XGB.pkl')
-SEMESTER_7 = joblib.load('MODEL_SEMESTER7_RF.pkl')
+SEMESTER_1 = joblib.load('MODEL_SEMESTER1_RF.pkl')
 
 # Sidebar for navigation
 
